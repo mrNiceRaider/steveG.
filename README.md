@@ -3,7 +3,9 @@
 Electrician by trade (Elektroniker für Energie- und Gebäudetechnik), builder by nature.
 
 I work at the intersection of electrical engineering, embedded systems, and software — combining hands-on hardware knowledge with self-taught programming to build things that are actually useful.
-I speak german as motherlanguage, english fluently and got a level a1 niveau in spanish, wich itrain every day.
+
+I speak german as motherlanguage, english fluently and got a level a1 niveau in spanish, wich I train every day.
+
 
 My greatest intension is to solve problems on their roots.
 
