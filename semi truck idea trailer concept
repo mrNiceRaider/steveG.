@@ -1,0 +1,34 @@
+# EV Trailer Power Share — Konzept
+
+> Gedankenexperiment zur Reichweitenverlängerung von elektrischen Auto-Transportern
+> durch Nutzung der Batterien der transportierten Fahrzeuge.
+
+## Kernidee
+
+Ein elektrischer Auto-Transporter (z.B. Tesla Semi) transportiert 8–10 Elektrofahrzeuge.
+Diese Fahrzeuge besitzen zusammen eine enorme Batteriekapazität. Die Idee: einen Teil
+dieser Energie während des Transports für den Antrieb des Trucks zu nutzen.
+
+## Warum es bei Tesla funktionieren würde
+
+Bei Drittanbietern scheitert das Konzept an drei unabhängigen Blockaden:
+- Proprietäre BMS-Authentifizierung pro OEM
+- Garantieverlust durch externe Entladung
+- Spannungsheterogenität (400V vs. 800V Fahrzeuge gemischt)
+
+Tesla besitzt die gesamte Kette:
+- Semi = Tesla-Eigentum (Fahrzeug)
+- Cargo = Tesla Model Y / 3 (noch nicht ausgeliefert, also Tesla-Eigentum)
+- BMS, Software, Protokoll = einheitlicher Stack
+- Kein OEM-Konflikt, keine Garantiefrage, keine Authentifizierungsbarriere
+
+## Induktive Kopplung als Schlüssel
+
+Statt physischer Stecker: induktive Pads im Trailer-Deck, identisch zur
+Robotaxi-Ladeinfrastruktur die Tesla bereits entwickelt.
+
+- Fahrzeuge parken sich auf dem Trailer ein → Kopplung automatisch
+- Kein manueller Anschluss beim Verladen
+- Gleiche Technologie wie stationäre induktive Ladepunkte
+
+## Energie-Rechnung
